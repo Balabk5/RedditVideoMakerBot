@@ -5,7 +5,7 @@ import textwrap
 from PIL import Image, ImageDraw, ImageFont
 from rich.progress import track
 
-from TTS.engine_wrapper import process_text
+from TTS_list.engine_wrapper import process_text
 from utils.fonts import getheight, getsize
 
 

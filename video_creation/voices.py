@@ -2,16 +2,16 @@ from typing import Tuple
 
 from rich.console import Console
 
-from TTS.aws_polly import AWSPolly
-from TTS.elevenlabs import elevenlabs
-from TTS.engine_wrapper import TTSEngine
-from TTS.GTTS import GTTS
-from TTS.pyttsx import pyttsx
-from TTS.streamlabs_polly import StreamlabsPolly
-from TTS.TikTok import TikTok
+from TTS_list.aws_polly import AWSPolly
+from TTS_list.elevenlabs import elevenlabs
+from TTS_list.engine_wrapper import TTSEngine
+from TTS_list.GTTS import GTTS
+from TTS_list.pyttsx import pyttsx
+from TTS_list.streamlabs_polly import StreamlabsPolly
+from TTS_list.TikTok import TikTok
 from utils import settings
 from utils.console import print_step, print_table
-from TTS.Coqui import coquiTTS
+from TTS_list.Coqui import coquiTTS
 console = Console()
 
 TTSProviders = {
